@@ -1,15 +1,15 @@
 @font-face {
-    font-family: CandaraDL;
-    src: url('Candara.ttf'); 
+    font-family: Lato-Regular;
+    src: url('Lato-Regular.ttf'); 
   }
   
   #header {
-    border-bottom: 2px solid #B4881D;
+    border-bottom: 2px solid #800000;
     padding-bottom: 20px;
   }
   
   #footer {
-    border-top: 2px solid #B4881D;
+    border-top: 2px solid #800000;
     padding-top: 10px;
   }
   
@@ -32,11 +32,11 @@
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
-    width: 30em;
+    width: 45em;
   }
   
   .name {
-    color: #B4881D;
+    color: #000000;
     font-size: 25pt;
   }
   
@@ -48,14 +48,16 @@
   }
   
   .section {
-    color: #B4881D;
+    color: #000000;
+    font-size: 15pt
   }
   
   body {
-    font-family: candara, CandaraDL, menlo;
-    font-size: 12pt;
-    background-color: #002B36;
-    color: #839496;
+    font-family: Lato-Regular;
+    font-size: 13pt;
+    <!--> background-color: #002B36;<-->
+    <!-->color: #839496;<-->
+    color: #000000
   }
   
   LI.text {
