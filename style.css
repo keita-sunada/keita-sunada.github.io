@@ -2,7 +2,7 @@ body
 {
     margin:0;
     text-align: center;
-    font-family: "Helvetica Neue", Arial;
+    /*-font-family: "Helvetica Neue", Arial; -*/
     font-size: 16px
 }
 
@@ -14,6 +14,7 @@ img
 a
 {
     text-decoration: none;
+    color: #204E91
 }
 
 /*-----header------*/
@@ -26,8 +27,8 @@ background-color: white;
 
 .header h1
 {
-font-family:"Helvetica Neue", Arial;
-font-size: 26px;
+/*-font-family:"Helvetica Neue", Arial; -*/
+font-size: 22px;
 padding-top: 10px;}
 
 .wrapper
