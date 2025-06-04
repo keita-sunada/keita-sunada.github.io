@@ -19,11 +19,30 @@ a
 }
 
 /*-----header------*/
-.header
-{
-padding-top: 10px;    
-height: 150px;
-background-color: white;
+.header {
+    position: relative;
+    height: 180px;
+    background-color: white;
+}
+
+/* テキスト部分を中央に固定 */
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* 画像をテキストの左に配置 */
+.profile-pic {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50%; /* テキストの左側 */
+    margin-right: 200px; /* 必要に応じて調整 */
+    height: 150px;
+    object-fit: cover;
 }
 
 .header h1
