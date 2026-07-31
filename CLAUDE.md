@@ -10,7 +10,8 @@ Static personal academic website for Keita Sunada, hosted via GitHub Pages at `k
 
 - `index.html` — Main page (research, CV link, bio)
 - `style.css` — Single stylesheet for all pages
-- `japanese.html`, `links.html` — Secondary pages (currently commented out in nav)
+- `zakki.html` — 雑記 (Japanese notes page, bulleted entries, newest first)
+- `links.html` — Secondary page (currently commented out in nav)
 - `archived/` — Previous versions of the site
 - `uploads/` — PDFs of papers and appendices
 - `cv_Keita_Sunada.pdf`, `main01.pdf` — CV and job market paper PDF
